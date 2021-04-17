@@ -12,5 +12,6 @@ for i in 1...10 {
     notas.2 = (readLine()! as NSString).integerValue
     
     let media = (notas.0 * 2 + notas.1 * 4 + notas.2 * 3) / 10
+    
     print("\tMedia: \(media)\n")
 }
